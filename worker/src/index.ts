@@ -54,7 +54,7 @@ app.post('/api/chat', async (c) => {
   }
 
   const genAI = new GoogleGenerativeAI(c.env.GEMINI_API_KEY);
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-3.5-flash' });
 
   try {
     const result = await model.generateContentStream(prompt);

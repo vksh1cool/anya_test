@@ -1,0 +1,11 @@
+.wrangler/
+dist/
+out/
+.next/
+node_modules/
+.dev.vars
+.env.local
+.env
+__pycache__/
+venv/
+.venv/
